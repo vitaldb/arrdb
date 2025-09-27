@@ -55,6 +55,15 @@ streamlit run webviewer.py
 For instructions on how to load and analyze the data directly using Python, please refer to the Jupyter Notebook tutorial below:
   ***`UsageNote.ipynb`**
 
+  ***`Vital_beat_noise_detection.ipynb`***
+
+      * This notebook demonstrates a complete workflow for arrhythmia analysis using the `pyvital` library. It shows how to:
+        1.  Load a `VitalFile` for a specific case.
+        2.  Run a custom filter that performs both beat classification and rule-based noise detection.
+        3.  Visualize the analysis results, including beat labels and noise intervals, on the ECG waveform.
+
+      ![Pyvital ECG beat and noise classification](noise_classification.png)
+
 ## 📄 Citation
 If you use this database in your research, please cite the following paper:
 > Da-In Eun, Kayoung Shim, Lee Hyunsoo, et al. (2025). *VitalDB Arrhythmia Database: Publicly accessible real-world intraoperative electrocardiogram database with beat and rhythm annotations*.
