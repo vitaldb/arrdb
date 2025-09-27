@@ -62,7 +62,7 @@ For instructions on how to load and analyze the data directly using Python, plea
         2.  Run a custom filter that performs both beat classification and rule-based noise detection.
         3.  Visualize the analysis results, including beat labels and noise intervals, on the ECG waveform.
 
-      ![Pyvital ECG beat and noise classification](noise_classification.png)
+![Pyvital ECG beat and noise classification](noise_classification.png)
 
 ## 📄 Citation
 If you use this database in your research, please cite the following paper:
