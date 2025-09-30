@@ -9,8 +9,8 @@ This database contains 734,528 seconds of continuous ECG recordings from 482 pat
 **Key Features:**
 - **Scale**: Data from 482 patients, totaling 734,528 seconds of ECG recordings.
 - **Detailed Annotations**: Contains 661,894 validated heartbeats.
-- **Rhythm Categories**: Features 10 distinct rhythm labels:
-  1. Atrial Fibrillation/Flutter
+- **Rhythm Categories**: Features 11 distinct rhythm labels:
+  1. Atrial Fibrillation
   2. Atrioventricular (AV) Block
   3. Normal Sinus Rhythm
   4. Sinus Node Dysfunction
@@ -20,6 +20,7 @@ This database contains 734,528 seconds of continuous ECG recordings from 482 pat
   8. Ventricular Tachycardia
   9. Wandering Atrial Pacemaker / Multifocal Atrial Tachycardia
   10. Unclassifiable
+  11. Noise
 
 ## 📂 Data Structure
 The database consists of a main **metadata file** and individual **annotation files** for each case.
